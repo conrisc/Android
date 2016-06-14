@@ -5,7 +5,7 @@ import android.content.Context;
 import android.view.*;
 import android.widget.*;
 
-public class RowAdapter extends ArrayAdapter<RowBean>{
+public class RowAdapter extends ArrayAdapter<RowBean> {
 	 
     Context context;
     int layoutResourceId;   
@@ -23,8 +23,7 @@ public class RowAdapter extends ArrayAdapter<RowBean>{
         View row = convertView;
         RowBeanHolder holder = null;
  
-        if(row == null)
-        {
+        if(row == null) {
             LayoutInflater inflater = ((Activity)context).getLayoutInflater();
             row = inflater.inflate(layoutResourceId, parent, false);
  
@@ -34,8 +33,7 @@ public class RowAdapter extends ArrayAdapter<RowBean>{
  
             row.setTag(holder);
         }
-        else
-        {
+        else {
             holder = (RowBeanHolder)row.getTag();
         }
  
@@ -46,8 +44,7 @@ public class RowAdapter extends ArrayAdapter<RowBean>{
         return row;
     }
  
-    static class RowBeanHolder
-    {
+    static class RowBeanHolder {
         ImageView imgIcon;
         TextView txtTitle;
     }
