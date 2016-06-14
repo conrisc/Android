@@ -19,6 +19,4 @@ public class MainActivity extends Activity {
 		startService(new Intent(getBaseContext(), Serwis.class));
 		System.exit(0);
 	}
-
-	
 }
