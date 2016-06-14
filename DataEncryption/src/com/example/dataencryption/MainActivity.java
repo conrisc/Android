@@ -1,5 +1,4 @@
 package com.example.dataencryption;
-
 import android.app.Activity;
 import android.content.*;
 import android.os.Bundle;
@@ -25,10 +24,9 @@ public class MainActivity extends Activity {
 		
 		if (pass.equals(reqPass)) {
 			Intent intent = new Intent(context, DataListActivity.class);
-		    startActivity(intent);
+		    	startActivity(intent);
 		}
-		else {
+		else 
 			Toast.makeText(context,"Incorrect password!",Toast.LENGTH_SHORT).show();
-		}
 	}
 }
