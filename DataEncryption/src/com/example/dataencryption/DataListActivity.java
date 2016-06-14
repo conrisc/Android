@@ -36,6 +36,5 @@ public class DataListActivity extends Activity {
         	listView1.setAdapter(adapter);
 	}
 	
-	public void clickAction(View v) {
-	}
+	public void clickAction(View v) {}
 }
