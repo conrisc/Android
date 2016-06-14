@@ -17,5 +17,5 @@ public class RowBean {
     	
 		this.icon = resizedBmp;
         	this.title = title;
-    }
+	}
 }
