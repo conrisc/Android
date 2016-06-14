@@ -15,13 +15,11 @@ public class Serwis extends IntentService {
 
 	@Override
 	protected void onHandleIntent(Intent intent) {
-		
-        handler.post(new Runnable() {
-        	public void run() {
-        		Toast.makeText(getApplicationContext(), "1", Toast.LENGTH_SHORT).show();
-        		Toast.makeText(getApplicationContext(), "2", Toast.LENGTH_SHORT).show();
-            }
-        }); 
+        	handler.post(new Runnable() {
+        		public void run() {
+        			Toast.makeText(getApplicationContext(), "1", Toast.LENGTH_SHORT).show();
+        			Toast.makeText(getApplicationContext(), "2", Toast.LENGTH_SHORT).show();
+            		}
+        	}); 
 	}
-
 }
