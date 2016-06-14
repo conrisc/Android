@@ -1,8 +1,5 @@
 package com.example.dataencryption;
-
-
 import java.io.File;
-
 import android.app.Activity;
 import android.content.*;
 import android.os.Bundle;
@@ -24,7 +21,6 @@ public class DataListActivity extends Activity {
 			
 		String[] elementy = new File(path).list();
 		
-		
 		//Tworzenie danych do listy
 		 RowBean RowBean_data[] = new RowBean[elementy.length];
         	//Wpisywanie danych do tablicy
@@ -37,10 +33,8 @@ public class DataListActivity extends Activity {
         	listView1 = (ListView)findViewById(R.id.Lista);
         	//Ustawianie adaptera
         	listView1.setAdapter(adapter);
-        
 	}
 	
 	public void clickAction(View v) {
-
 	}
 }
