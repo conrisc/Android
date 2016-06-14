@@ -1,4 +1,5 @@
 package com.example.dataencryption;
+
 import android.app.Activity;
 import android.content.*;
 import android.os.Bundle;
