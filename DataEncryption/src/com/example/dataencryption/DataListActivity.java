@@ -20,7 +20,7 @@ public class DataListActivity extends Activity {
 		setContentView(R.layout.activity_data_list);
 		context = getApplicationContext();
 		
-		String path = "/storage/sdcard0/Download/rs/";
+		String path = "/storage/sdcard0/Download/";
 			
 		String[] elementy = new File(path).list();
 		
