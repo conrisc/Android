@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Program_1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="example">Aplikacja</string>
+	<string name="text">Tekst:</string>
+	<string name="yn">Tak/Nie:</string>
+	<string name="yes">Tak</string>
+	<string name="no">Nie</string>
+	<string name="rating">Ocena:</string>
+	<string name="ok">OK</string>
+	<string name="picture">obrazek</string>
+
+</resources>
